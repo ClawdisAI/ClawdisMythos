@@ -5,9 +5,10 @@
 </p>
 
 <p align="center">
-  <a href="https://aleastategies.fun"><img alt="Site" src="https://img.shields.io/badge/site-aleastategies.fun-1a8917?style=for-the-badge"></a>
-  <a href="https://x.com/cropfun"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40cropfun-000000?logo=x&style=for-the-badge"></a>
-  <a href="https://medium.com/@CropLandFun"><img alt="Medium" src="https://img.shields.io/badge/medium-%40CropLandFun-12100E?logo=medium&style=for-the-badge"></a>
+  <a href="https://aleastategies.gg"><img alt="Site" src="https://img.shields.io/badge/site-aleastategies.gg-1a8917?style=for-the-badge"></a>
+  <a href="https://github.com/neilhtennek/wheat-world"><img alt="GitHub" src="https://img.shields.io/badge/source-neilhtennek%2Fwheat--world-181717?logo=github&style=for-the-badge"></a>
+  <a href="https://x.com/TheAleaStrategies"><img alt="Twitter" src="https://img.shields.io/badge/follow-%40TheAleaStrategies-000000?logo=x&style=for-the-badge"></a>
+  <a href="https://medium.com/@AleaStrategies"><img alt="Medium" src="https://img.shields.io/badge/medium-%40AleaStrategies-12100E?logo=medium&style=for-the-badge"></a>
 </p>
 
 <p align="center">
@@ -32,7 +33,7 @@ That single design choice is what separates AleaStrategies from a prediction mar
 
 > **Land you don't believe in, you don't claim. Land you do, you defend.**
 
-Play now at **[aleastategies.fun](https://aleastategies.fun)** · Follow updates on **[@cropfun](https://x.com/cropfun)** · Read more on **[Medium](https://medium.com/@CropLandFun)**.
+Play now at **[aleastategies.gg](https://aleastategies.gg)** · Follow updates on **[@TheAleaStrategies](https://x.com/TheAleaStrategies)** · Read more on **[Medium](https://medium.com/@AleaStrategies)**.
 
 ---
 
@@ -381,9 +382,9 @@ Independent review is in progress. Findings will be published in this repository
 
 ## Links
 
-- **Site** — [aleastategies.fun](https://aleastategies.fun)
-- **Twitter / X** — [@cropfun](https://x.com/cropfun)
-- **Medium** — [@CropLandFun](https://medium.com/@CropLandFun)
+- **Site** — [aleastategies.gg](https://aleastategies.gg)
+- **Twitter / X** — [@TheAleaStrategies](https://x.com/TheAleaStrategies)
+- **Medium** — [@AleaStrategies](https://medium.com/@AleaStrategies)
 - **Source** — you're reading it
 
 ---
