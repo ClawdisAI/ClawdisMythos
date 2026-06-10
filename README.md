@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  Site Coming Soon
+  <img src="https://img.shields.io/badge/Site-Coming%20Soon-84D9B5?style=for-the-badge&logoColor=06231b" alt="Site Coming Soon" height="34" />
   &nbsp;
   <a href="https://x.com/ClawdisAI"><img src="https://img.shields.io/badge/%40ClawdisAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="34" /></a>
   &nbsp;
@@ -68,7 +68,7 @@ infrastructure, not a mixer.
 ## Links
 
 <p align="center">
-  Site Coming Soon
+  <img src="https://img.shields.io/badge/Site-Coming%20Soon-84D9B5?style=for-the-badge&logoColor=06231b" alt="Site Coming Soon" height="34" />
   &nbsp;
   <a href="https://x.com/ClawdisAI"><img src="https://img.shields.io/badge/%40ClawdisAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="36" /></a>
   &nbsp;
@@ -181,7 +181,7 @@ Released under the [MIT License](./LICENSE). © Clawdis.
 ---
 
 <p align="center">
-  <img src="./assets/logo.png" alt="Clawdis" width="56" />
+  <img src="https://cdn.prod.website-files.com/69082c5061a39922df8ed3b6/6a29738a781be9b01c228643_oJJkr4hP_400x400.jpg" alt="Clawdis" width="56" style="border-radius:50%" />
 </p>
 
 <p align="center"><sub>Built on Solana · <a href="https://www.prowl.finance/">clawdis.ai</a></sub></p>
