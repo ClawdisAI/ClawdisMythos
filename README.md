@@ -1,10 +1,14 @@
-<p align="center">
-  <img src="./assets/banner.png" alt="ProwlFi Labs" width="100%" />
+﻿<p align="center">
+  <img src="./assets/banner.png" alt="Clawdis" width="100%" />
 </p>
 
-<h1 align="center">🐺 ProwlFi</h1>
+<h1 align="center">Clawdis</h1>
 
 <p align="center"><strong>Private rails for the agentic economy on Solana.</strong></p>
+
+<p align="center">
+  <em>In the old tongue, Clawdis was the keeper of unseen paths — the one who walked between.</em>
+</p>
 
 <p align="center">
   Stealth addresses and x402 payments for AI agents — every payment lands at a
@@ -13,13 +17,13 @@
 </p>
 
 <p align="center">
-  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/prowl.finance-84D9B5?style=for-the-badge&logo=safari&logoColor=06231b" alt="Website" height="34" /></a>
+  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/clawdis.ai-84D9B5?style=for-the-badge&logo=safari&logoColor=06231b" alt="Website" height="34" /></a>
   &nbsp;
   <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/Docs-0B0B0A?style=for-the-badge&logo=gitbook&logoColor=84D9B5" alt="Documentation" height="34" /></a>
   &nbsp;
-  <a href="https://x.com/tryProwlFi"><img src="https://img.shields.io/badge/%40tryProwlFi-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="34" /></a>
+  <a href="https://x.com/ClawdisAI"><img src="https://img.shields.io/badge/%40ClawdisAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="34" /></a>
   &nbsp;
-  <a href="https://github.com/ProwlFi"><img src="https://img.shields.io/badge/ProwlFi-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="34" /></a>
+  <a href="https://github.com/ClawdisAI"><img src="https://img.shields.io/badge/ClawdisAI-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="34" /></a>
 </p>
 
 <p align="center">
@@ -31,6 +35,16 @@
 
 ---
 
+## The Myth
+
+Before the ledger, there were paths that left no trace. Clawdis walked them — the god of unseen movement, patron of those who move between worlds without touching either. Where others cast long shadows across every transaction, Clawdis left nothing: no record, no trail, no proof of passage except the thing that arrived.
+
+The ancients understood what modern markets forgot: *not every movement needs a witness.*
+
+Clawdis is that principle, made executable.
+
+---
+
 ## Overview
 
 The agent economy is being built in public, on rails that publish every payment
@@ -38,7 +52,7 @@ forever. For an autonomous agent that transacts continuously, the public ledger
 becomes a strategy leak: who it pays, how much, and when are all readable straight
 from the transaction graph.
 
-**ProwlFi closes that gap at the address layer.** It combines two primitives:
+**Clawdis closes that gap at the address layer.** It combines two primitives:
 
 - **Stealth addresses** — the recipient publishes one long-lived meta-address;
   senders derive a fresh, single-use destination for every payment that cannot be
@@ -50,19 +64,19 @@ from the transaction graph.
 The result: agents keep operating on standard Solana — standard wallets, standard
 SPL tokens — without surrendering their strategy to anyone with a block explorer.
 An operator retains a **viewing key** for a complete, attributable audit trail, so
-ProwlFi is private from the public, not from you. It is confidentiality
+Clawdis is private from the public, not from you. It is confidentiality
 infrastructure, not a mixer.
 
 ## Links
 
 <p align="center">
-  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/prowl.finance-84D9B5?style=for-the-badge&logo=safari&logoColor=06231b" alt="Website" height="36" /></a>
+  <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/clawdis.ai-84D9B5?style=for-the-badge&logo=safari&logoColor=06231b" alt="Website" height="36" /></a>
   &nbsp;
   <a href="https://www.prowl.finance/"><img src="https://img.shields.io/badge/Docs-0B0B0A?style=for-the-badge&logo=gitbook&logoColor=84D9B5" alt="Documentation" height="36" /></a>
   &nbsp;
-  <a href="https://x.com/tryProwlFi"><img src="https://img.shields.io/badge/%40tryProwlFi-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="36" /></a>
+  <a href="https://x.com/ClawdisAI"><img src="https://img.shields.io/badge/%40ClawdisAI-000000?style=for-the-badge&logo=x&logoColor=white" alt="X / Twitter" height="36" /></a>
   &nbsp;
-  <a href="https://github.com/ProwlFi"><img src="https://img.shields.io/badge/ProwlFi-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="36" /></a>
+  <a href="https://github.com/ClawdisAI"><img src="https://img.shields.io/badge/ClawdisAI-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" height="36" /></a>
 </p>
 
 ## Features
@@ -78,23 +92,21 @@ infrastructure, not a mixer.
 ## Quickstart
 
 ```bash
-npm install @prowlfi/sdk
+npm install @clawdis/sdk
 ```
 
 ```ts
-import { createProwl } from "@prowlfi/sdk";
+import { createClawdis } from "@clawdis/sdk";
 
-const agent = createProwl({ chain: "solana" });
+const agent = createClawdis({ chain: "solana" });
 
-// Resolve a recipient to a fresh, one-time stealth address and settle over x402.
 const { receipt } = await agent.payX402({
   url: "https://api.vendor.xyz/infer",
-  to: "prowl:vendor-7",
+  to: "clawdis:vendor-7",
   amount: 0.02,
   token: "USDC",
 });
 
-// Recipient side: scan announcements with a viewing key and sweep what arrived.
 const incoming = await agent.scan(agent.viewingKey());
 ```
 
@@ -102,22 +114,22 @@ See [`examples/`](./examples) for runnable end-to-end flows.
 
 ## Packages
 
-This is a monorepo for the ProwlFi protocol and its agent-facing surfaces.
+This is a monorepo for the Clawdis protocol and its agent-facing surfaces.
 
 | Package | Description |
 | --- | --- |
-| [`@prowlfi/sdk`](./packages/sdk) | TypeScript SDK — stealth derivation, x402 payments, scanning, sweeps. |
-| [`@prowlfi/mcp-server`](./packages/mcp-server) | Model Context Protocol server exposing ProwlFi tools to Claude Code, Cursor, Windsurf, and any MCP host. |
+| [`@clawdis/sdk`](./packages/sdk) | TypeScript SDK — stealth derivation, x402 payments, scanning, sweeps. |
+| [`@clawdis/mcp-server`](./packages/mcp-server) | Model Context Protocol server exposing Clawdis tools to Claude Code, Cursor, Windsurf, and any MCP host. |
 
-## ProwlFi &times; Pump.fun
+## Clawdis x Pump.fun
 
 <p align="center">
-  <img src="./assets/prowl-pumpfun.png" alt="ProwlFi x Pump.fun" width="100%" />
+  <img src="./assets/prowl-pumpfun.png" alt="Clawdis x Pump.fun" width="100%" />
 </p>
 
 <p align="center">
   <a href="https://pump.fun/coin/2C2fvt4zJ3SUUeah4tJ9mXbSNTN6sEHKXBwNHUdapump">
-    <img src="https://img.shields.io/badge/buy%20%24PROWL-84D9B5?style=for-the-badge&logo=solana&logoColor=06231b" alt="Buy on pump.fun" height="36" />
+    <img src="https://img.shields.io/badge/buy%20%24CLAWDIS-84D9B5?style=for-the-badge&logo=solana&logoColor=06231b" alt="Buy on pump.fun" height="36" />
   </a>
 </p>
 
@@ -130,13 +142,10 @@ This is a monorepo for the ProwlFi protocol and its agent-facing surfaces.
 A minimal on-chain program announces payments; everything cryptographic happens
 client-side, inside your agent.
 
-1. **Publish.** The recipient publishes a meta-address — `prowl:<spend>.<view>`.
-2. **Derive.** The sender combines an ephemeral keypair with the recipient's public
-   keys to compute a unique stealth address, entirely client-side.
-3. **Pay.** Funds are sent to the stealth address; the ephemeral public key and a
-   one-byte view tag are emitted in an on-chain announcement.
-4. **Scan.** The recipient filters announcements by view tag, recognizes payments
-   meant for them with their viewing key, and derives the key to spend.
+1. **Invoke.** The recipient publishes a meta-address — `clawdis:spend.view`.
+2. **Derive.** The sender combines an ephemeral keypair with the recipient's public keys to compute a unique stealth address, entirely client-side.
+3. **Pay.** Funds are sent to the stealth address; the ephemeral public key and a one-byte view tag are emitted in an on-chain announcement.
+4. **Scan.** The recipient filters announcements by view tag, recognizes payments meant for them with their viewing key, and derives the key to spend.
 
 ```
 on-chain program  ->  pure-TS privacy engine  ->  SDK / MCP / REST
@@ -147,8 +156,8 @@ on-chain program  ->  pure-TS privacy engine  ->  SDK / MCP / REST
 ```
 .
 ├── packages/
-│   ├── sdk/            # @prowlfi/sdk — client engine (derivation, x402, scan, sweep)
-│   └── mcp-server/     # @prowlfi/mcp-server — MCP tools for agent hosts
+│   ├── sdk/            # @clawdis/sdk — client engine (derivation, x402, scan, sweep)
+│   └── mcp-server/     # @clawdis/mcp-server — MCP tools for agent hosts
 ├── examples/           # runnable end-to-end flows
 ├── docs/               # protocol documentation
 └── assets/             # brand assets
@@ -164,7 +173,7 @@ on-chain program  ->  pure-TS privacy engine  ->  SDK / MCP / REST
 
 ## Security
 
-ProwlFi is in active development; the stealth scheme and on-chain program are
+Clawdis is in active development; the stealth scheme and on-chain program are
 scoped for third-party audit. Do not treat mainnet usage as audited until that
 completes. To report a vulnerability, see [SECURITY.md](./SECURITY.md) — please do
 not open public issues for security reports.
@@ -176,12 +185,12 @@ development workflow, and [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
 
 ## License
 
-Released under the [MIT License](./LICENSE). © ProwlFi Labs.
+Released under the [MIT License](./LICENSE). © Clawdis.
 
 ---
 
 <p align="center">
-  <img src="./assets/logo.png" alt="ProwlFi" width="56" />
+  <img src="./assets/logo.png" alt="Clawdis" width="56" />
 </p>
 
-<p align="center"><sub>🐺 Built on Solana · <a href="https://www.prowl.finance/">prowl.finance</a></sub></p>
+<p align="center"><sub>Built on Solana · <a href="https://www.prowl.finance/">clawdis.ai</a></sub></p>
